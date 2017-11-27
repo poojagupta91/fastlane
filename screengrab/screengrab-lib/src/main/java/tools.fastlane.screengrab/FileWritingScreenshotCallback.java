@@ -58,7 +58,8 @@ public class FileWritingScreenshotCallback implements ScreenshotCallback {
     }
 
     protected File getScreenshotFile(File screenshotDirectory, String screenshotName) {
-        String screenshotFileName = screenshotName + NAME_SEPARATOR + System.currentTimeMillis() + EXTENSION;
+//        String screenshotFileName = screenshotName + NAME_SEPARATOR + System.currentTimeMillis() + EXTENSION;
+        String screenshotFileName = screenshotName + NAME_SEPARATOR + EXTENSION;
         return new File(screenshotDirectory, screenshotFileName);
     }
 

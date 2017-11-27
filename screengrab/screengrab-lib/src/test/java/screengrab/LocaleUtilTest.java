@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import java.util.Locale;
 
-import screengrab.locale.LocaleUtil;
+import tools.fastlane.screengrab.locale.LocaleUtil;
 
 import static org.junit.Assert.*;
 
